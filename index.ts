@@ -7,5 +7,6 @@ let quote="The Art Of Creation Is Bigger Than The Art Of Killing.";
 console.log(authorName+quote)
 
 // Question 3: Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Use "\t" (tab) and "\n" (new line) at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after stripping the white spaces.
-let personName="           maryam                "
+let personName= "           maryam       "
+console.log(personName);
   console.log(personName.trim());
